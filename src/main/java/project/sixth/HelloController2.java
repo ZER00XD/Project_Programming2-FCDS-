@@ -12,7 +12,9 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class HelloController2 {
+    @FXML
     private Button LogoutButton;
+    @FXML
     private AnchorPane scenePane;
     Stage stage;
 
