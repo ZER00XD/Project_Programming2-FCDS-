@@ -62,7 +62,14 @@ public class Cart {
         return Float.toString(sum);
     }
     public void placeOrder(){
-         System.out.println("Here is your order S summary:");
+         if (number==1){
+            Order data=new Order();
+            System.out.println("Here is your order S summary:");
+            data.printOrderInfo(cart,customer);
+        }else {
+            System.out.println("Thnx to Shoping");
+
+        }
     }
 }
 
